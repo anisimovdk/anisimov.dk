@@ -1,37 +1,87 @@
-## Welcome to GitHub Pages
+---
+layout: default
+title: Dmitry K. Anisimov
+description: Senior Engineer / Team Lead
+---
 
-You can use the [editor on GitHub](https://github.com/anisimovdk/anisimovdk/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## About me
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hi, my name is Dmitry. I work as a software engineer and deal with data and big data infrastructure. 
+I know many things about IT infrastructure, really a lot... I am trying to learn more about machine learning and genetics.
 
-### Markdown
+We are building own Hadoop distribution based on OSS projects, my responsibilities:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Drive platform releases (building, testing, deliver backports and patches).
+- Debug system level deployment issues, root cause analysis, and resolve failures.
+- Work with Java, Python on different components, develop own building framework and automation tools.
+- Work on improving the internal infrastructure.
 
-```markdown
-Syntax highlighted code block
+## My stack
 
-# Header 1
-## Header 2
-### Header 3
+Hadoop distributions:
 
-- Bulleted
-- List
+- Cloudera CDH
+- Apache Bigtop
+- Hortonworks Data Platform (HDP)
+- Sberbank Data Platform Hadoop (SDP Hadoop)
 
-1. Numbered
-2. List
+Languages and scripting:
 
-**Bold** and _Italic_ and `Code` text
+- Java
+- Maven
+- Python
+- Bash
 
-[Link](url) and ![Image](src)
-```
+CM tools:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Ansible
+- Puppet
+- Jenkins
+- Helm
 
-### Jekyll Themes
+Data tools:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anisimovdk/anisimovdk/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Apache Hadoop
+- Apache Hive
+- Apache Hbase
+- Apache Kafka
+- Apache Spark
+- Apache Ranger
+- Apache Oozie
+- Apache Sqoop
+- Apache Zookeeper
+- Apache Hue
+- Apache Ozone
+- Apache YuniKorn
+- Jupyter Products
+- Clickhouse
+- Scylla
 
-### Support or Contact
+VMs/Containters:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Openshift
+- Kubernetes
+- Openstack
+- VMware vSphere
+
+Monitoring and logging:
+
+- Prometheus
+- Grafana
+- Grafana Loki
+- ELK
+
+Cloud Platforms:
+
+- Amazon Web Services (AWS)
+- Internal cloud tools
+
+Linux distributions:
+
+- Red Hat Enterprise Linux (RHEL)
+- Red Hat Universal Base Images (UBI)
+- Fedora CoreOS (FCOS)
+- CentOS
+
+I also like travelling, skiing, riding a bicycle... 
+For everything else, contact me at telegram [@made_with_care](https://t.me/made_with_care) or mail me at [mail@anisimov.dk](mailto:mail@anisimov.dk)
