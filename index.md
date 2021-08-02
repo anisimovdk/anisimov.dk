@@ -86,4 +86,4 @@ Linux distributions:
 - CentOS
 
 I also like travelling, skiing, riding a bicycle... 
-For everything else, contact me at telegram [@made_with_care](https://t.me/made_with_care) or mail me at [mail@anisimov.dk](mailto:mail@anisimov.dk)
+For everything else, contact me at telegram [@anisimovdk](https://t.me/anisimovdk) or mail me at [mail@anisimov.dk](mailto:mail@anisimov.dk)
