@@ -6,7 +6,7 @@ description: Senior Engineer / Team Lead
 
 ## About me
 
-![Photo](images/photo.jpg)
+![Photo](images/photo-2021.jpg)
 
 Hi, my name is Dmitry. I work as a software engineer and deal with data and big data infrastructure. 
 I know many things about IT infrastructure, really a lot... I am trying to learn more about machine learning and genetics.
