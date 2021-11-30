@@ -8,7 +8,7 @@ title: About
 
 ![Photo](images/photo-2021.jpg){:width="90%"}
 
-Hi, my name is Dmitry. I work as a software engineer and deal with data and big data infrastructure.
+Hi, my name is Dmitry. I work as a Senior DevOps Engineer (Big Data) / Tech Lead at Sber and deal with data and big data infrastructure.
 I know many things about IT infrastructure, really a lot... I am trying to learn more about machine learning and genetics.
 
 We are building own Hadoop distribution based on OSS projects, my responsibilities:
