@@ -1,4 +1,26 @@
-theme: jekyll-theme-cayman
-github:
-  is_project_page: false
-yandex_metrika: 83522236
+theme: minima
+title: anisimov.dk
+author:
+  name: Dmitry K. Anisimov
+  email: mail@anisimov.dk
+google_analytics: 83522236 # Yndex Metrika
+
+timezone: Europe/Moscow
+
+minima:
+  date_format: "%b %-d, %Y"
+  # date_format: "%Y-%m-%d"
+  social_links:
+    twitter: anisimovdk
+    github:  anisimovdk
+    facebook: anisimov.dk
+    instagram: anisimov.dk
+    telegram: anisimovdk
+    linkedin: anisimovdk
+
+disqus:
+  shortname: anisimovdk
+
+url: "https://anisimov.dk"
+plugins:
+  - jekyll-sitemap
