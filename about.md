@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About
+# layout: default
+# title: About
 # description: Senior Engineer / Team Lead
 ---
 
