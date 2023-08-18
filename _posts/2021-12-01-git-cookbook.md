@@ -6,6 +6,8 @@ toc: true
 comments: true
 ---
 
+This cookbook contains some useful git command.
+
 ## Reset local repository to remote
 
 ```bash

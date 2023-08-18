@@ -2,14 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
-// @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-
-.social-media-list li {
-  display: inline;
-}
-
-body {
-  // font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  // font-family: 'JetBrains Mono';
-}
+// @import "minima";
+@import "css/brands.min.css";
+@import "css/fontawesome.min.css";
+@import "css/main.css";
+// @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=block');

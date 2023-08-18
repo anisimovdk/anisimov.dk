@@ -6,6 +6,8 @@ toc: true
 comments: true
 ---
 
+If you need to deploy something into an air gaped cluster without changing images reference this post for you.
+
 ## Requirements
 
 * skopeo
@@ -24,11 +26,11 @@ docker run -d \
   registry:2
 ```
 
-## Build skopeo from source with patch (Workaroud)
+## Build skopeo from the source with the patch (Workaroud)
 
-After merge [PR](https://github.com/containers/skopeo/pull/1531), this step should be omitted
+After merging [PR](https://github.com/containers/skopeo/pull/1531), this step should be omitted.
 
-Current version does not preserve image namespace:
+The current version does not preserve image namespace:
 
 * `quay.io/coreos/etcd:latest` -> `registry.example.com/etcd:latest` - by default
 * `quay.io/coreos/etcd:latest` -> `registry.example.com/quay.io/coreos/etcd:latest` - with flag `--scoped`,
@@ -45,7 +47,7 @@ make bin/skopeo
 cp bin/skopeo /usr/local/bin/skopeo
 ```
 
-## Sync images to local registry
+## Sync images to the local registry
 
 Define image list, create `sync.yaml`
 
@@ -66,7 +68,7 @@ docker.io:
       - latest
 ```
 
-Run syncing to local registry
+Run syncing to the local registry
 
 ```bash
 skopeo sync \
@@ -83,7 +85,7 @@ skopeo sync \
 
 ## Sync image from local to remote registry
 
-Define local registry as mirror in `registries.conf`:
+Define local registry as a mirror in `registries`.conf`:
 
 ```ini
 # registries.conf

@@ -5,19 +5,13 @@ author:
   email: mail@anisimov.dk
 yandex_analytics: 83522236 # Yndex Metrika
 google_analytics: G-FEBX7989QP # Yndex Metrika
+show_excerpts: true
 
 timezone: Europe/Moscow
 
 minima:
   date_format: "%b %-d, %Y"
   # date_format: "%Y-%m-%d"
-  social_links:
-    twitter: anisimovdk
-    github:  anisimovdk
-    facebook: anisimov.dk
-    instagram: anisimov.dk
-    telegram: anisimovdk
-    linkedin: anisimovdk
 
 disqus:
   shortname: anisimovdk

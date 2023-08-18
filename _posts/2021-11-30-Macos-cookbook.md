@@ -6,6 +6,8 @@ toc: true
 comments: true
 ---
 
+Mac OSX wisdom.
+
 ## Setup auto-completion (bash-completion)
 
 ### Setup bash-completion from homebrew
@@ -44,17 +46,17 @@ Teamviewer
 ls /Library/LaunchAgents/com.teamviewer.* | awk -F "/" '{print $4}' | xargs launchctl stop
 ```
 
-## Files or directories moved from OSX to Synology NAS is inaccessible
+## Files or directories moved from OSX to Synology NAS are inaccessible
 
-If files or directory is inaccessible you need to normalize it from UTF-8 C (OSX) to D (Linux)
+If files or directory is inaccessible you need to normalize them from UTF-8 C (OSX) to D (Linux)
 
 - Enable NFS on NAS
-- Setup NFS permission on NAS for target directory
-- From linux connect to NFS share (CentOS: `mount.nfs -w 192.168.1.100:/volume1/datastore/ /mnt/`)
+- Setup NFS permission on NAS for the target directory
+- From Linux connect to NFS share (CentOS: `mount.nfs -w 192.168.1.100:/volume1/datastore/ /mnt/`)
 - Install **convmv** tool (CentOS: `yum install convmv`)
 - Open mounted directory
 - Run command `convmv -r -f utf8 -t utf8 --nfc .` (dry-run)
-- If `error (max: 255)` appeared modify **convmv** (`vi /usr/bin/convmv`) variable **$maxfilenamelength** from **255** to **1024**, then run previous command again
+- If `error (max: 255)` appeared modify **convmv** (`vi /usr/bin/convmv`) variable **$maxfilenamelength** from **255** to **1024**, then run the previous command again
 - To perform converting run the command `convmv -r -f utf8 -t utf8 --nfc --notest .`
 
 ## Reset Bluetooth
@@ -64,7 +66,7 @@ sudo kextunload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport
 sudo kextload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport
 ```
 
-## Remove dot file from current folder and subfolder
+## Remove the dot file from the current folder and subfolder
 
 ```bash
 find . -type f ! -name '.DS_Store' -name "._[^.]*" | sed -E 's|/[^/]+$||' | sort | uniq | while read folder; do echo $folder; done;
@@ -108,7 +110,7 @@ export HOSTNAME="dodo-mac" \
 && sudo scutil --set ComputerName ${HOSTNAME}
 ```
 
-## Force OSX use 5Ghz
+## Force OSX to use 5Ghz
 
 ```bash
 sudo /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport --channel=$(sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/sbin/airport -s | grep -E " $(sudo /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -I | grep " SSID:" | cut -d : -f 2 | awk '{$1=$1};1') [a-z0-9]{2}:" | grep -Ev " -[0-9]{2,3}  (1[0-4]|[0-9]) " | head -n 1 | awk '{print $4}') && sleep 3 && networksetup -setairportpower airport off && sleep 3 && networksetup -setairportpower airport on
